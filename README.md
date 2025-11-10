@@ -77,10 +77,22 @@ if you have some missing plugins ChatGPT will helps you find that i did install 
 
 The same config works across distributions.
 To get started:
-1. Load the config: `swanctl --load-all`
-2. Initiate the tunnel: `sudo swanctl --initiate --ike tunnel`
-3. Check status: `sudo swanctl --list-sas`
-4. Terminate: `swanctl --terminate --ike tunnel`
+1. Load the config:
+   ```
+   sudo swanctl --load-all
+   ```
+2. Initiate the tunnel:
+   ```
+   sudo swanctl --initiate --ike tunnel
+   ```
+3. Check status:
+   ```
+   sudo swanctl --list-sas
+   ```
+4. Terminate:
+   ```
+   sudo swanctl --terminate --ike tunnel
+   ```
 
 ### Looking Ahead
 I'm exploring ways to improve Network Manager integration for GNOME users—something as user-friendly as OpenConnect. Plus, it's high time for open-source SAML authentication tools; we've relied on community projects long enough—let's contribute back!
