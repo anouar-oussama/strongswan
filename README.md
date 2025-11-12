@@ -53,7 +53,9 @@ sudo apt update
 sudo apt upgrade
 sudo apt install build-essential wget bzip2 bison flex gperf libtool pkg-config libgmp-dev libssl-dev libgcrypt20-dev libcurl4-openssl-dev libldap2-dev libsqlite3-dev libxml2-dev libsystemd-dev libpam0g-dev libcap-dev libkrb5-dev libtss2-dev libnm-dev libiptc-dev
 ```
+
 ```bash
+wget https://download.strongswan.org/strongswan-6.0.2.tar.bz2
 tar xjf strongswan-6.0.2.tar.bz2
 cd strongswan-6.0.2
 ```
