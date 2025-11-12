@@ -64,11 +64,6 @@ cd strongswan-6.0.2
   sudo make install
 ```
 
-```bash
-  ./configure --prefix=/usr --sysconfdir=/etc --with-ipseclibdir=/usr/lib/$(dpkg-architecture -qDEB_BUILD_MULTIARCH) --enable-swanctl --enable-systemd
-  make
-  sudo make install
-```
 Place your config in `/etc/swanctl/conf.d/swanctl.conf`.
 
 - **Fedora**: Simpler—just use `dnf install strongswan`. Config goes in `/etc/strongswan/swanctl/swanctl.conf`.
