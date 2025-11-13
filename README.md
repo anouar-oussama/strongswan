@@ -6,6 +6,9 @@ As a cybersecurity engineer who uses Linux every day, everything works well in L
 
 We were experiencing issues with backing up our cloud Linux server at HQ, but StrongSwan resolved this. Now, we can create an IPsec Linux-to-site tunnel without any problems. The setup supports auto-connect, maintains an always-on connection, and automatically retries if the tunnel goes down.
 
+<img width="6000" height="3375" alt="Fortigate" src="https://github.com/user-attachments/assets/999b18cd-e728-41a3-90c0-20fd72e70b6b" />
+
+
 ### The Pain Points with FortiClient
 From my hands-on work, FortiClient has some notable limitations:
 - **Business Model Trade-offs**: Features like auto-connect and always-on are locked behind paid tiers, which makes sense for Fortinet but frustrates individual users or small teams.
