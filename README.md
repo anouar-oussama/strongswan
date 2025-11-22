@@ -1,4 +1,4 @@
-FortiClient VPN-Only Sucks for Both Windows and Linux Users.
+FortiClient VPN-Only unreliable for Both Windows and Linux Users.
 
 Fortinet is dropping SSL VPN support in newer firmware versions. For Linux users who need VPN access for remote work, OpenConnect works significantly better than FortiClient VPN-only on Linux and Windows.
 
